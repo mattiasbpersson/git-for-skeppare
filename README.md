@@ -27,14 +27,14 @@ oss.
 
 | Verb        | Nuvarande bruk | Förslag       |
 |-------------|----------------|---------------|
-| pull        | pulla          | lägga till    |
-| push        | pusha          | lägga ut      |
-| fetch       | fetcha         | hala hem      |
+| pull        | pulla          | lägga-till    |
+| push        | pusha          | lägga-ut      |
+| fetch       | fetcha         | hala-hem      |
 | branch      | brancha        | rutt          |
 | commit      | commita        | förankra      |
 | rebase      | rebasa         | brassa        |
 | merge       | merga          | anlöpa        |
-| squash      | squasha        | knopa (ihop)  |
+| squash      | squasha        | knopa (-ihop)  |
 | stash       | stasha         | ?????         |
 | tag         | tagga          | märke         |
 | cherry-pick | cherry-picka   | plocka???     |
@@ -53,7 +53,7 @@ oss.
 
 ## Exempel
 
-    - Kan du lägga till rutten jag just brassade och lägga ut till github?
+    - Kan du lägga-till rutten jag just brassade och lägga-ut till github?
 
     - Jag la nyss en ny rutt och förankrade ändringarna från min durk där.
 
@@ -61,7 +61,7 @@ oss.
 
     - Låt oss plocka från huvud-rutten.
     
-    - Hoppsan, jag råkade visst kraft lägga till mot huvud-rutten.. D:
+    - Hoppsan, jag råkade visst kraft lägga-till mot huvud-rutten.. D:
 
     - Knopa ihop dina förankringar innan du anlöper.
 
