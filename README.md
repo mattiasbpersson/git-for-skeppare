@@ -2,14 +2,22 @@
 
 ## Introduktion
 
-Det dagliga språket för de olika kommandona i `git` (eller `jävel`) är
+Detta är en fork av [git-pa-svenska](https://github.com/bjorne/git-pa-svenska).
+Idé från [bjorsa](https://github.com/bjorsa)
+
+Den har utifrån samma utgångspunkt att försöka hitta ett sätt att kunna kommunicera 
+på svenska det man gör i git. 
+
+Från git-pa-svenska](https://github.com/bjorne/git-pa-svenska): 
+*Det dagliga språket för de olika kommandona i `git` (eller `jävel`) är
 på svenska ett enda stort svengelskakalas. Jag finner mig själv ofta
 sägandes _"Kan du pusha branchen?"_ eller _"Jag pullar!"_, vilket
-känns pinsamt.
+känns pinsamt.*
 
-Detta dokument ämnar etablera en ren svensk jargong som kan användas
-på arbetsplatsen för att med fördel undvika pressade situationer med
-kollegor samt boskap.
+Detta dokument utgör ett alternativ till git-pa-svenska](https://github.com/bjorne/git-pa-svenska) 
+för att förhoppningsvis göra det än lättare att kommunicera. 
+
+Termerna kommer från: [sjotermer](http://omk.se/anslagstavlan/sjotermer)
 
 ## Förslag
 
@@ -19,43 +27,43 @@ oss.
 
 | Verb        | Nuvarande bruk | Förslag       |
 |-------------|----------------|---------------|
-| pull        | pulla          | rycka         |
-| push        | pusha          | knuffa        |
-| fetch       | fetcha         | hämta         |
-| branch      | brancha        | förgrena      |
-| commit      | commita        | förbinda      |
-| rebase      | rebasa         | ympa          |
-| merge       | merga          | sammanfoga    |
-| squash      | squasha        | mosa          |
-| stash       | stasha         | gömma         |
-| tag         | tagga          | märka         |
-| cherry-pick | cherry-picka   | plocka russin |
-| amend       | amenda         | rätta till    |
-| blame       | blamea         | klandra       |
+| pull        | pulla          | lägga till    |
+| push        | pusha          | lägga ut      |
+| fetch       | fetcha         | hala hem      |
+| branch      | brancha        | rutt          |
+| commit      | commita        | förankra      |
+| rebase      | rebasa         | brassa        |
+| merge       | merga          | anlöpa        |
+| squash      | squasha        | knopa (ihop)  |
+| stash       | stasha         | ?????         |
+| tag         | tagga          | märke         |
+| cherry-pick | cherry-picka   | plocka???     |
+| amend       | amenda         | ?????         |
+| blame       | blamea         | kölhala       |
 
-| Substantiv   | Nuvarande bruk | Förslag     |
-|--------------|----------------|-------------|
-| git          | git            | jävel       |
-| repository   | repo           | förvaring   |
-| branch       | branch         | gren        |
-| commit       | commit         | förbindelse |
-| pull request | pull request   | ryckbegäran |
-| stash        | stash          | gömma       |
-| tag          | tagg           | märke       |
+| Substantiv   | Nuvarande bruk | Förslag           |
+|--------------|----------------|-------------------|
+| git          | git            | gigg              |
+| repository   | repo           | durk/holk         |
+| branch       | branch         | rutt              |
+| commit       | commit         | förankring        |
+| pull request | pull request   | angörningsfråga   |
+| stash        | stash          | ?????             |
+| tag          | tagg           | märka             |
 
 ## Exempel
 
-    - Kan du rycka grenen jag just ympade och knuffa till github?
+    - Kan du lägga till rutten jag just brassade och lägga ut till github?
 
-    - Jag förgrenade alldeles nyss och förband ändringarna från min gömma där.
+    - Jag la nyss en ny rutt och förankrade ändringarna från min durk där.
 
-    - Skicka en ryckbegäran när du är färdig med sammanfogningen!
+    - Skicka en angörningsfråga när du är anlöpt!
 
-    - Låt oss plocka russin från mäster-grenen.
+    - Låt oss plocka från huvud-rutten.
     
-    - Hoppsan, jag råkade visst kraftknuffa mot mäster-grenen.. D:
+    - Hoppsan, jag råkade visst kraft lägga till mot huvud-rutten.. D:
 
-    - Mosa dina förbindelser innan du sammanfogar.
+    - Knopa ihop dina förankringar innan du anlöper.
 
 ## Dagligt bruk
 
@@ -64,16 +72,15 @@ gitmiljö. Avsaknaden av svenska tecken i täcknamnen beror på en brist i git
 (överväg att förbättra mjukvaran och skicka en ryckbegäran!). Följande
 kommandon ändrar din `~/.gitconfig` och kommer att verka globalt.
 
-    git config --global alias.ryck pull
-    git config --global alias.knuffa push
-    git config --global alias.gren branch
-    git config --global alias.forgrena branch
-    git config --global alias.forbinda commit
-    git config --global alias.ympa rebase
-    git config --global alias.sammanfoga merge
-    git config --global alias.gom stash
-    git config --global alias.klandra blame
+    git config --global alias.lagga_till pull
+    git config --global alias.lagga_ut push
+    git config --global alias.rutt branch
+    git config --global alias.forankra commit
+    git config --global alias.brassa rebase
+    git config --global alias.anlopa merge
+    git config --global alias.durk stash
+    git config --global alias.kolhala blame
     git config --global alias.marke tag
     git config --global alias.mark tag
 
-    alias jävel=git
+    alias gigg=git
