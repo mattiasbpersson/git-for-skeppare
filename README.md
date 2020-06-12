@@ -64,6 +64,8 @@ oss.
     - Hoppsan, jag råkade visst kraft lägga-till mot huvud-rutten.. D:
 
     - Knopa ihop dina förankringar innan du anlöper.
+    
+    - Vi kölhalar inte folk utan att först se vem som förankrat.
 
 ## Dagligt bruk
 
