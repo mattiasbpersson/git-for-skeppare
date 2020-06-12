@@ -1,4 +1,4 @@
-# Git på svenska
+# Git för skeppare
 
 ## Introduktion
 
