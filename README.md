@@ -65,7 +65,7 @@ oss.
 
     - Knopa ihop dina förankringar innan du anlöper.
     
-    - Vi kölhalar inte folk utan att först se vem som förankrat.
+    - Vi kölhalar inte nån ur besättningen utan att först se vem som förankrat.
 
 ## Dagligt bruk
 
